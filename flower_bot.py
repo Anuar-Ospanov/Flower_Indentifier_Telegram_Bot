@@ -132,7 +132,7 @@ async def handle_image(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def main():
     logging.info("🌺 Bot is running...")
-    app = ApplicationBuilder().token("7759215865:AAFtMuhEqj7ksdBRWJi2Hzbx4RRf7n8PUFY").build()
+    app = ApplicationBuilder().token(telegram_api_token).build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_command))
