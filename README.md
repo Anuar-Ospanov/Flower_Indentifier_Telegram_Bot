@@ -1,8 +1,5 @@
 # Flower Identification Bot 🌸
 
-## Video Presentation
-
-
 This project is a Telegram bot that uses AI and machine learning to identify flowers from images and provide interesting facts about them. The bot utilizes a pre-trained ONNX model for flower classification and OpenAI's GPT-4 model to generate flower-related information.
 
 ## Features
@@ -10,6 +7,12 @@ This project is a Telegram bot that uses AI and machine learning to identify flo
 - 🌼 **Flower Identification**: Send a picture of a flower, and the bot will identify it using a pre-trained model.
 - 📚 **Flower Facts**: The bot will fetch and provide interesting facts about the identified flower.
 - 🌸 **User-Friendly Interaction**: Simple commands to start the bot and get help.
+
+## Photos
+
+![image](https://github.com/user-attachments/assets/fe757345-c33f-45c4-adb8-57f43aa17802)
+![image](https://github.com/user-attachments/assets/de2e219a-1bde-4297-8052-a420d3db75a6)
+![image](https://github.com/user-attachments/assets/cf4a6f31-5399-46fb-8b4c-d5aa7668181b)
 
 ## Requirements
 
