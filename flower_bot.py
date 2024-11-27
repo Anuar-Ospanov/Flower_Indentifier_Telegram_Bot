@@ -45,7 +45,7 @@ def predict(model, image_tensor):
     return outputs
 
 def get_flower_info(flower_name):
-    prompt = f"Tell me detailed information about the flower '{flower_name}', including interesting facts. If the flower is one of the following: Annual Mallow, Asian Virgin's Bower, Bull Thistle, Buttercup, Coltsfoot, Common Columbine, Common Cornflag, Common Daisy, Common Dandelion, Common Primroses, Corn Poppy, Desert Rose, Fritillaries, Garden Petunia, Sunflower, Tea Roses, Tiger Lily, Violets, Wallflowers, Water Lilies — mention that the origin of the flower is Kazakhstan. If the flower is not on this list, mention that it is not originally from Kazakhstan, but can still be found in Kazakhstan. Keep your response to 5-6 sentences, providing the main information."
+    prompt = f"Tell me detailed information about the flower '{flower_name}', including interesting facts. Main point, don't mention its origin. Also your answer should be max 5-6 sentences so provide main info"
     try:
         client = openai.OpenAI(api_key=openai_api_key)
         completion = client.chat.completions.create(
@@ -69,7 +69,7 @@ class_labels = [
     "💧 Water Lilies"
 ]
 
-model_path = "model/resnet50_3e4_10_secondTry2__epoch_20_accuracy_test_97.4265.onnx"
+model_path = "model/resnet50_3e4_10_secondTry2__epoch_10_accuracy_test_98.8971.onnx"
 model = load_model(model_path)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
