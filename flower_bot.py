@@ -70,6 +70,7 @@ class_labels = [
 ]
 
 model_path = "model/resnet50_3e4_10_secondTry2__epoch_10_accuracy_test_98.8971.onnx"
+
 model = load_model(model_path)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
