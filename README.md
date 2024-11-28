@@ -10,9 +10,9 @@ This project is a Telegram bot that uses AI and machine learning to identify flo
 
 ## Photos
 
-![image](https://github.com/user-attachments/assets/fe757345-c33f-45c4-adb8-57f43aa17802)
-![image](https://github.com/user-attachments/assets/de2e219a-1bde-4297-8052-a420d3db75a6)
-![image](https://github.com/user-attachments/assets/cf4a6f31-5399-46fb-8b4c-d5aa7668181b)
+![image](https://github.com/user-attachments/assets/291d45a1-6bbb-4c48-9bff-6ca73b21211f)
+![image](https://github.com/user-attachments/assets/07f6075d-7fe4-4c01-9a68-943ba78b2fe3)
+![image](https://github.com/user-attachments/assets/c32e803d-ce8b-470d-9d54-5b88a50f8be4)
 
 ## Requirements
 
